@@ -111,7 +111,7 @@ public class ProjectFormPanel extends JPanel {
         }
     }
 
-    private class ClearButtonListener implements ActionListener {
+  private class ClearButtonListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
             projectNameField.setText("");
@@ -122,3 +122,4 @@ public class ProjectFormPanel extends JPanel {
         }
     }
 }
+
